@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>条件分岐 - else</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="ShortCarousel">
+        <div class="container">
+            <div class="SlickSlide">
+                <img src="image/english.png" alt="ENGLISH">
+            </div>
+            <div class="SlickSlide">
+                <img src="image/french.png" alt="FRENCH">
+            </div>
+            <div class="SlickSlide">
+                <img src="image/italian.png" alt="ITALIAN">
+            </div>
+            <div class="SlickSlide">
+                <img src="image/mandalin.png" alt="MANDAKIN">
+            </div>
+            <div class="SlickSlide">
+                <img src="image/spanish.png" alt="SPANISH">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const age = "18";
+        if (age >= 20) {
+            console.log ("私は20歳以上です");
+        } else {
+            console.log ("私は20歳以下です");
+        }
+
+        const word = "English";
+        if (word === "English") {
+            console.log ("はい、英語は話せます");
+        } else {
+            console.log ("いいえ、英語は話せません");
+        }
+
+        const lang = "Italian";
+        if (lang === "French") {
+            console.log ("はい、イタリア語は読めます");
+        } else {
+            console.log ("イタリア語以外は読めません");
+        }
+
+        const food = "Spanish";
+        if (food === "Spanish") {
+            console.log ("はい、スペイン料理は大好物です");
+        } else {
+            console.log ("いいえ、スペイン料理は苦手です");
+        }
+
+        const like = "crub";
+        if (like === "fish") {
+            console.log ("はい、それはカニです");
+        } else {
+            console.log ("いいえ、それはカニではありません");
+        }
+
+        const want = "tote bag";
+        if (want === "tote bag") {
+            console.log ("はい、そのトートバッグが欲しいです");
+        } else {
+            console.log ("いいえ、そのショルダーバッグはいりません");
+        }
+
+        const order = "Fried chicken";
+        if (order === "meat") {
+            console.log ("ご注文はフライドチキンですね");
+        } else {
+            console.log ("ご注文はフライドチキンじゃないんですか？　がっかり。。");
+        }
+    </script>
+
+</body>
+</html>
